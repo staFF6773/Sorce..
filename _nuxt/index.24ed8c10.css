@@ -1,0 +1,22 @@
+.scrollup[data-v-ebc76a70] {
+    background-color: var(--title-color);
+    border-radius: .4rem;
+    bottom: -20%;
+    opacity: .8;
+    padding: .3rem .5rem;
+    position: fixed;
+    right: 2.5rem;
+    transition: .4s
+}
+
+.show-scroll[data-v-ebc76a70] {
+    bottom: 3rem
+}
+
+.fade-enter-active,.fade-leave-active {
+    transition: opacity .5s ease
+}
+
+.fade-enter-from,.fade-leave-to {
+    opacity: 0
+}
